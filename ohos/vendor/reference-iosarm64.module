@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../compose-charts/1.0.0/compose-charts-1.0.0.module",
+    "group": "io.github.ehsannarmani",
+    "module": "compose-charts",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-charts-iosArm64Main.klib",
+          "url": "compose-charts-iosarm64-1.0.0.klib",
+          "size": 329523,
+          "sha512": "25e0f00cdba6817bf1cdef8b37fea2a55a8b05770d8eb7cdc70c732fc1c6ac28e7bc403cb6603147c90bb79e33652ed7b4f3b5b0a4e689b1f9f8b53856c953f0",
+          "sha256": "b8d59ce0fce8249125e289687058e3d5a65831796da454757889bf0f178ffeee",
+          "sha1": "c9fa78e607f54d562c42e908e62a28c3aa412303",
+          "md5": "fcaf7ebd3d4395cccfbba1f9b7713eae"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "compose-charts-iosarm64-sources.jar",
+          "url": "compose-charts-iosarm64-1.0.0-sources.jar",
+          "size": 42692,
+          "sha512": "6e6f9b9316447293809623a33c01090d444ab2e9929ea74b3ff995e6d7e86a93e4f414da9ddc35c3c06563f7dc77608eaa8290cf1fb269e98b2c0d6d85e3c474",
+          "sha256": "76694646b37d82cd36794568b47d14dcb285463870e1cfe5982dd3d0949622e4",
+          "sha1": "84e07f1c5c3b40e8804c7e44b0580d8f20a01b47",
+          "md5": "ba513cdc7b8580271ccd4fac3b4e33f3"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-charts.kotlin_resources.zip",
+          "url": "compose-charts-iosarm64-1.0.0-kotlin_resources.kotlin_resources.zip",
+          "size": 344,
+          "sha512": "71a2c98c143ba3dab5dfaae21379656b4df17b8594686f1e3d701b33064209d27e0f23b3e057c7135f28e340e53ef85c54511c1461282e17405d916650529f30",
+          "sha256": "a165db424483bc15b6649f5b55d42a34dacc1a63bf2fc34a99a1080cc35720e5",
+          "sha1": "9e921e497c339a5cbe6fa1de9d21eb71245e54c8",
+          "md5": "7ddf08d788f889c361b6f0e5d3d41e99"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.compose.foundation",
+          "module": "foundation",
+          "version": {
+            "requires": "1.10.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "compose-charts-iosarm64-metadata.jar",
+          "url": "compose-charts-iosarm64-1.0.0-metadata.jar",
+          "size": 2636,
+          "sha512": "8cff186d14c2235c170f4c681a768c0b4902789e5e571be82017b6dd9296f42bca1d5c7f557cc777016d3b3301ff309c5e3581bac464fbcee96c28a2565a4043",
+          "sha256": "8d219363d91175075ccee2aabe30e7bb4356de9ea039595d622e068ab3fd9121",
+          "sha1": "011af012dcb22560c98641334b6e10786a31de09",
+          "md5": "f7feb0cf5bbf84c04b96e5ad3efe937c"
+        }
+      ]
+    }
+  ]
+}

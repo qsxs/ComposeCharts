@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "kotlin": "2.4.20-0.1.0-08",
+  "compose": "1.12.0-0.1.0-11",
+  "gradle": "9.5.0",
+  "metadataPolicy": "STANDARD_LOCKED_KGP_METADATA_NO_FALLBACK",
+  "modules": {
+    "compose-charts": {
+      "group": "io.github.qsxs.cpf.charts",
+      "upstreamVersion": "1.0.0",
+      "sourceCount": 42,
+      "commonSourceCount": 41,
+      "nativeSourceCount": 1,
+      "license": "Apache-2.0",
+      "repository": "https://github.com/ehsannarmani/ComposeCharts"
+    }
+  }
+}
